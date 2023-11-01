@@ -7,8 +7,8 @@ const page = () => {
 
 
     return (
-        <Container maxW='80%'>
-            <Flex justifyContent={'flex-end'}>
+        <Container>
+            <Flex mt={15} justifyContent={'flex-end'}>
                 <Button type="submit" colorScheme="blue" width="100px">
                     Add Book
                 </Button>
