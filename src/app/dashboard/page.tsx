@@ -4,7 +4,7 @@ import {
     Table,
     Thead,
     Tbody,
-    Tfoot,
+    Input,
     Tr,
     Th,
     Td,
@@ -23,7 +23,8 @@ const page = () => {
 
     return (
         <Container minW={"100%"}>
-            <Flex mt={15} justifyContent={'flex-end'}>
+            <Flex my={15} justifyContent={'space-between'}>
+                <Input type="text" placeholder='search by name or author' width={"200px"}  />
                 <Button type="submit" colorScheme="blue" width="100px">
                     Add Book
                 </Button>
