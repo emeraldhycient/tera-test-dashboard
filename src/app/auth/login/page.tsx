@@ -32,9 +32,7 @@ const LoginPage = () => {
                         Login
                     </Button>
                     <Link href="/auth/signup">
-                        <Button  variant="outline" width="full" mt="4">
-                           Don't have an account?  Sign Up
-                        </Button>
+                        <Button  variant="outline" width="full" mt="4">Dont have an account?  Sign Up</Button>
                     </Link>
                 </VStack>
             </form>
